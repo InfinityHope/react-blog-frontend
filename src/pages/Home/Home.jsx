@@ -86,7 +86,7 @@ export const Home = () => {
 										title={item.title}
 										imageUrl={
 											item.imageUrl
-												? `http://localhost:4444${item.imageUrl}`
+												? `${process.env.REACT_APP_API_URL}${item.imageUrl}`
 												: ''
 										}
 										user={{

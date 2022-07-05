@@ -46,7 +46,9 @@ export const SinglePostPage = () => {
 				id={post.item._id}
 				title={post.item.title}
 				imageUrl={
-					post.item.imageUrl ? `http://localhost:4444${post.item.imageUrl}` : ''
+					post.item.imageUrl
+						? `${process.env.REACT_APP_API_URL}${post.item.imageUrl}`
+						: ''
 				}
 				user={{
 					avatarUrl: post.item.user.avatarUrl,
