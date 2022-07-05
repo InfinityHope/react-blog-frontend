@@ -1,0 +1,7 @@
+export * from './TagsBlock/TagsBlock.jsx'
+export * from './Comments/Comments.jsx'
+export * from './Post/Post.jsx'
+export * from './AddComment/AddComment.jsx'
+export * from './SideBlock/SideBlock.jsx'
+export * from './UserInfo/UserInfo.jsx'
+export * from './Header/Header.jsx'

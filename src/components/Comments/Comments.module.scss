@@ -1,0 +1,10 @@
+.commentDelete {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  cursor: pointer;
+  transition: .2s all ease-in-out;
+  &:hover {
+    color: red;
+  }
+}
